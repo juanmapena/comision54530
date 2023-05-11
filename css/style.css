@@ -1,0 +1,1025 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+
+.ulGeneral {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+    text-decoration: none;
+}
+
+
+
+/* font-family: 'Goudy Bookletter 1911', serif;
+font-family: 'Inspiration', cursive; */
+
+/* CSS de index.html */
+.bodyIndex {
+    background-color: black;
+}
+
+.divClassIniciar {
+    background-color: #D9D9D9;
+    text-align: center;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 20px;
+}
+
+
+.h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    padding-top: 25px;
+    margin-bottom: 40px;
+}
+
+.vinculosPrincipales {
+    width: 20%;
+    border: 2px white solid;
+}
+
+.divImage img {
+    width: 100%;
+}
+
+
+.ulNav {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.liClass {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: white;
+}
+
+
+.liHome {
+    text-decoration: none;
+}
+
+.divTienda {
+    background-color: #D9D9D9;
+    text-align: center;
+}
+
+.anclaTienda {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-family: 'Goudy Bookletter 1911', serif;
+
+}
+
+
+.porQueSneakers {
+    text-align: center;
+    color: white;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.ulProductos {
+    list-style: none;
+    text-align: center;
+}
+
+.logoFinal {
+    font-family: 'Goudy Bookletter 1911', serif;
+    text-align: right;
+    color: white;
+    font-size: 50px;
+    margin-top: 60px;
+    padding-right: 10px;
+}
+
+
+/* CSS de tienda.html */
+.headerTienda {
+    background-color: black;
+    width: 100%;
+    color: white;
+    height: 30px;
+}
+
+.divHeader {
+    margin-bottom: 30px;
+}
+
+
+
+.divHeader p {
+    text-align: center;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 20px;
+}
+
+.divInicio {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Goudy Bookletter 1911', serif;
+    list-style: none;
+}
+
+
+.liAnclas {
+    display: flex;
+    gap: 15px;
+}
+
+
+.ulInicio {
+    list-style: none;
+}
+
+.divHeader img {
+    width: 15%;
+    height: 60px;
+}
+
+.titulo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.h1Tienda {
+    text-align: left;
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: black;
+    font-size: 60px;
+}
+
+.h2Tienda {
+    font-size: 45px;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+.parrafoTienda {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 25px;
+}
+
+.section1 {
+    text-align: center;
+    color: black;
+    background-image: url(../assets/img/nike-just-do-it.jpg);
+}
+
+.divSection1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.section2 {
+    text-align: center;
+    color: black;
+
+}
+
+.section2 p {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 25px;
+}
+
+.section2 strong {
+    font-size: 30px;
+}
+
+.section2 img {
+    width: 100%;
+
+}
+
+.section3 {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.section3 .contenedor {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
+}
+
+.section3 div {
+    display: block;
+    width: 200px;
+    height: 300px;
+}
+
+
+.divProductos {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+}
+
+
+
+.h4Yh5 {
+    font-size: 30px;
+    font-family: 'Goudy Bookletter 1911', serif;
+
+}
+
+
+.divMarcas {
+    margin-top: 70px;
+    margin-bottom: 80px;
+    padding-left: 10px;
+}
+
+
+
+.imgZapas {
+    width: 247px;
+    height: 222px;
+    object-fit: cover;
+}
+
+.galeria {
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(7, 180px);
+    grid-template-rows: repeat(7, 150px);
+    grid-template-areas:
+        "classJordan classJordan classJordan classImgAd classImgAd  classImgNike classImgNike"
+        "classJordan classJordan classJordan classImgAd classImgAd  classImgNike classImgNike"
+        "classJordan classJordan classJordan classImgSb classImgSb  classImgJanoski classImgJanoski"
+        "classJordan classJordan classJordan classImgSb classImgSb  classImgJanoski classImgJanoski"
+    ;
+    gap: 10px;
+}
+
+.classJordan {
+    grid-area: classJordan;
+
+}
+
+
+.classImgAd {
+    grid-area: classImgAd;
+
+}
+
+.classImgNike {
+    grid-area: classImgNike;
+
+}
+
+
+
+
+.classImgJanoski {
+    grid-area: classImgJanoski;
+
+}
+
+
+.classImgSb {
+    grid-area: classImgSb;
+
+
+}
+
+.galeria img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.galeria .classJordan {
+    padding-left: 20px;
+}
+
+
+
+
+.h5Marcas {
+    font-size: x-large;
+}
+
+.sectionFondo {
+
+    width: 100%;
+    height: 753px;
+}
+
+.sectionMarcas {
+    width: 770px;
+    height: 435px;
+}
+
+.sectionMarcas span {
+    width: 310px;
+    height: 202px;
+}
+
+
+
+.sectionFinal {
+    text-align: center;
+
+}
+
+.sectionFinal a {
+    background-color: black;
+    color: white;
+
+}
+
+.strong {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.parrafoSneakers {
+    font-size: 20px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.divConocenos {
+    font-size: 25px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    margin-top: 30px;
+}
+
+
+.conocenosAncla {
+    text-decoration: none;
+}
+
+.footerFinal {
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+}
+
+.divFooterFinal {
+    margin-left: 25px;
+    padding-top: 30px;
+}
+
+.anclaPreguntas {
+    text-decoration: none;
+    color: white;
+}
+
+.contenedorLis {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.liLogos {
+    list-style: none;
+
+}
+
+.logosLiImg {
+    width: 40px;
+    height: 40px;
+}
+
+.anclaLogos {
+    list-style: none;
+}
+
+.imgLogos {
+    width: 30px;
+    height: 30px;
+}
+
+
+.divFinal {
+    text-align: center;
+}
+
+.divFooter {
+    color: black;
+    text-align: center;
+    background-color: #D9D9D9;
+}
+
+.divRegistrate {
+    text-align: left;
+
+}
+
+.hFinal {
+    padding-right: 10px;
+}
+
+
+
+.h6Final {
+    text-align: right;
+    color: white;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 60px;
+
+}
+
+
+
+.logos {
+    height: 30px;
+    width: 49px;
+}
+
+/* Css de sesion.html */
+
+
+.h1Sesion {
+    text-align: center;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.divH2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+.h2Sesion {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 30px;
+}
+
+.divUsername {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.h3Yh4 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+.divCuenta {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    padding-top: 30px;
+
+}
+
+
+
+.anclaRegistrate {
+    text-decoration: none;
+    color: black;
+}
+
+
+.divFormulario{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.inputUsername {
+    width: 25%;
+    height: 50px;
+    text-align: center;
+}
+
+
+
+
+.divBoton {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Css de registrate.html */
+
+
+.divClassH2 {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+
+
+
+.h2Registrate {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+
+
+.divParrafo {
+    color: 909090;
+    text-align: left;
+    font-family: 'Goudy Bookletter 1911', serif;
+    margin-bottom: 30px;
+    margin-left: 15px;
+
+}
+
+.divNombre1 {
+    margin-right: 250px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.divNombre {
+    display: flex;
+}
+
+.inputNombre {
+    width: 100%;
+    height: 50px;
+}
+
+.inputCorreoElectronico {
+    width: 1234px;
+    height: 102px;
+}
+
+.divCorreoElectronico {
+    margin-top: 40px;
+    margin-left: 15px;
+
+}
+
+.divRegistrarse {
+    text-align: center;
+    font-size: medium;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+.parrafoRegistrarse {
+    padding-top: 50px;
+}
+
+
+
+/* Css nosycontacto.html */
+
+.imgNos {
+    width: 1340px;
+    height: 878px;
+}
+
+.h2ContactoDiv {
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+
+
+.h2Contacto {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Goudy Bookletter 1911', serif;
+
+}
+
+.parrafoContacto {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Goudy Bookletter 1911', serif;
+    padding-bottom: 30px;
+}
+
+.divInput {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+
+
+.inputMensaje {
+    width: 1266px;
+    height: 282px;
+}
+
+
+.divBotonazo {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.botonMensaje {
+    width: 275px;
+    height: 70px;
+}
+
+
+.imgTienda2Clase {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.parrafoZapas {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+@media (max-width:1024px) {
+
+    /*index.html */
+
+    .vinculosPrincipales {
+        width: 25%;
+        font-size: 15px;
+
+    }
+
+    /* tienda.html */
+
+    .divInicio {
+        padding-right: 50px;
+    }
+
+    .titulo {
+        padding-left: 10px;
+    }
+
+
+    .divProductos {
+        padding-left: 10px;
+    }
+
+
+
+    .section3 .contenedor {
+        gap: 80px;
+
+    }
+
+
+    .section3 div {
+        width: 300px;
+    }
+
+
+    .divMarcas {
+        padding-left: 10px;
+    }
+
+    .galeria {
+        height: 600px;
+        display: grid;
+        grid-template-columns: repeat(7, 130px);
+        grid-template-rows: repeat(7, 100px);
+        grid-template-areas:
+            "classJordan classJordan classJordan classImgAd classImgAd  classImgNike classImgNike"
+            "classJordan classJordan classJordan classImgAd classImgAd  classImgNike classImgNike"
+            "classJordan classJordan classJordan classImgSb classImgSb  classImgJanoski classImgJanoski"
+            "classJordan classJordan classJordan classImgSb classImgSb  classImgJanoski classImgJanoski"
+        ;
+
+
+    }
+
+    /* aca iria el cambio de tamaño de imagenes del layout de marcas, PREGUNTAR AL PROFE */
+
+
+    .parrafoSneakers {
+        padding-right: 40px;
+    }
+
+
+    .divFooterFinal {
+        padding-left: 10px;
+    }
+
+    .hFinal {
+        padding-right: 50px;
+    }
+
+    /* sesion.html */
+
+    .h1Sesion{
+        padding-top: 10px;
+    }
+
+    .divH2{
+        margin-bottom: 15px ;
+    }
+
+   .divFormulario{
+    padding-bottom: 30px;
+    padding-top: 30px;
+   }
+
+   .divFormulario label{
+    margin-bottom: 30px;
+
+   }
+
+
+
+    .divBoton{
+        padding-top: 30px;
+    }
+    
+    .divInicio{
+        padding-right: 5px;
+    }
+
+    .divFooterFinal{
+        font-size: 20px;
+    }
+
+
+
+
+
+
+}
+
+
+@media (max-width:768px) {
+
+    /*index.html */
+
+    .vinculosPrincipales {
+        width: 35%;
+    }
+
+    
+
+    .anclaTienda {
+        font-size: 30px;
+    }
+
+    
+
+    .porQueSneakers {
+        margin-bottom: 150px;
+        padding-top: 30px;
+        font-size: 19px;
+    }
+
+    /* tienda.html */
+
+
+    /*sesion.html  */
+
+
+    .imgTienda2Clase{
+        width: 25px;
+        height: 25px;
+    }
+
+   .botonSesion{
+    font-size: 20px;
+   }
+
+   .hFinal{
+    margin-top: 30px;
+    padding-right: 20px;
+   }
+
+
+
+
+
+
+
+
+
+
+    .headerTienda {
+        width: 768px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (max-width:425px) {
+
+    /*index.html */
+
+    .h1 {
+        font-size: 50px;
+    }
+
+    .imagenJordan{
+        height: 400px;
+
+    }
+
+    .vinculosPrincipales {
+        width: 65%;
+    }
+
+    .liClass {
+        font-size: 20px;
+    }
+
+
+    .anclaTienda {
+        font-size: 35px;
+    }
+
+    .porQueSneakers {
+        font-size: 25px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        
+    }
+
+    .logoFinal {
+        font-size: 50px;
+        padding-top: 80px;
+    }
+
+
+    /* tienda.html */
+
+
+    /* sesion.html */
+
+
+
+    .imgTienda2Clase{
+        height: 25px;
+        width: 25px;
+    }
+
+    .divH2{
+        margin-bottom: 55px;
+        margin-top: 55px;
+    }
+
+    .h3Yh4{
+        font-size: 25px;
+    }
+
+    .inputUsername{
+        width: 50%;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .botonSesion{
+        font-size: 20px;
+    }
+
+
+    .contenedorLis{
+        padding-top: 80px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (max-width:375px) {
+
+    /*index.html */
+
+    .vinculosPrincipales {
+        width: 75%;
+
+    }
+
+    .liClass{
+        font-size: 20px;
+    }
+
+
+
+
+    .anclaTienda {
+        font-size: 35px;
+    }
+
+
+    .porQueSneakers {
+        font-size: 25px;
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+
+/* tienda.html */
+
+    /* sesion.html */
+
+    .inputUsername{
+        width: 70%;
+        height: 70px;
+        font-size: 15px;
+    }
+
+
+    .divCuenta{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+}
+
+
+
+
+@media (max-width:320px) {
+
+    /*index.html */
+
+    .vinculosPrincipales {
+        width: 90%;
+
+    }
+
+    .liClass{
+        font-size: 20px;
+    }
+
+
+    .porQueSneakers {
+        font-size: 20px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+  
+
+    /* tienda.html */
+
+    /* sesion.html */
+
+    .h1Sesion{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .imgTienda2Clase{
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+}
