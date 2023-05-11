@@ -49,7 +49,7 @@ font-family: 'Inspiration', cursive; */
     border: 2px white solid;
 }
 
-.divImage img {
+.imagenJordan {
     width: 100%;
 }
 
@@ -508,6 +508,8 @@ font-family: 'Inspiration', cursive; */
 .divFormulario{
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 
@@ -523,8 +525,9 @@ font-family: 'Inspiration', cursive; */
 
 .divBoton {
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 45px;
+    padding-top: 5px;
+  
 }
 
 
@@ -668,8 +671,7 @@ font-family: 'Inspiration', cursive; */
 
     .vinculosPrincipales {
         width: 25%;
-        font-size: 15px;
-
+        font-size: 16px;
     }
 
     /* tienda.html */
@@ -814,6 +816,12 @@ font-family: 'Inspiration', cursive; */
     font-size: 20px;
    }
 
+
+   .divBoton{
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
    .hFinal{
     margin-top: 30px;
     padding-right: 20px;
@@ -915,6 +923,11 @@ font-family: 'Inspiration', cursive; */
         font-size: 20px;
     }
 
+    .divBoton{
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+
 
     .contenedorLis{
         padding-top: 80px;
@@ -977,6 +990,11 @@ font-family: 'Inspiration', cursive; */
         padding-right: 20px;
     }
 
+    .divBoton{
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+
 
 }
 
@@ -995,6 +1013,10 @@ font-family: 'Inspiration', cursive; */
     .liClass{
         font-size: 20px;
     }
+
+    /* .imagenJordan{
+        height: 300px;
+    } */
 
 
     .porQueSneakers {
@@ -1018,6 +1040,11 @@ font-family: 'Inspiration', cursive; */
     .imgTienda2Clase{
         width: 20px;
         height: 20px;
+    }
+
+    .divBoton{
+        margin-top: 5px;
+        padding-top: 5px;
     }
 
 
