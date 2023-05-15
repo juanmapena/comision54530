@@ -469,7 +469,7 @@ font-family: 'Inspiration', cursive; */
 .divH2 {
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 10px;
+    padding-left: 10px;
 }
 
 .h2Sesion {
@@ -505,7 +505,7 @@ font-family: 'Inspiration', cursive; */
 }
 
 
-.divFormulario{
+.divFormulario {
     display: flex;
     justify-content: center;
     margin-top: 30px;
@@ -527,7 +527,7 @@ font-family: 'Inspiration', cursive; */
     text-align: center;
     margin-top: 45px;
     padding-top: 5px;
-  
+
 }
 
 
@@ -663,7 +663,63 @@ font-family: 'Inspiration', cursive; */
     margin-bottom: 15px;
 }
 
+@media (max-width: 1440px) {
 
+    /* sesion.html */
+
+    .h1Sesion {
+        padding-top: 10px;
+    }
+
+    .divInicio {
+        padding-right: 5px;
+    }
+
+
+    .divH2 {
+        margin-bottom: 35px;
+    }
+
+
+    .divFormulario {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+
+
+    .inputUsername {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 50px;
+        
+    }
+
+
+    .divBoton {
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+
+
+    .divFooterFinal {
+        font-size: 20px;
+    }
+
+
+    .botonSesion {
+        font-size: 16px;
+    }
+
+
+    .divBoton {
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+
+
+
+}
 
 @media (max-width:1024px) {
 
@@ -739,35 +795,29 @@ font-family: 'Inspiration', cursive; */
 
     /* sesion.html */
 
-    .h1Sesion{
+    .h1Sesion {
         padding-top: 10px;
     }
 
-    .divH2{
-        margin-bottom: 15px ;
+    .divH2 {
+        margin-bottom: 15px;
     }
 
-   .divFormulario{
-    padding-bottom: 30px;
-    padding-top: 30px;
-   }
-
-   .divFormulario label{
-    margin-bottom: 30px;
-
-   }
-
-
-
-    .divBoton{
+    .divFormulario {
+        padding-bottom: 30px;
         padding-top: 30px;
     }
-    
-    .divInicio{
+
+
+    .divBoton {
+        padding-top: 30px;
+    }
+
+    .divInicio {
         padding-right: 5px;
     }
 
-    .divFooterFinal{
+    .divFooterFinal {
         font-size: 20px;
     }
 
@@ -787,13 +837,13 @@ font-family: 'Inspiration', cursive; */
         width: 35%;
     }
 
-    
+
 
     .anclaTienda {
         font-size: 30px;
     }
 
-    
+
 
     .porQueSneakers {
         margin-bottom: 150px;
@@ -802,52 +852,33 @@ font-family: 'Inspiration', cursive; */
     }
 
     /* tienda.html */
-
-
-    /*sesion.html  */
-
-
-    .imgTienda2Clase{
-        width: 25px;
-        height: 25px;
-    }
-
-   .botonSesion{
-    font-size: 20px;
-   }
-
-
-   .divBoton{
-    margin-top: 5px;
-    padding-top: 5px;
-}
-
-   .hFinal{
-    margin-top: 30px;
-    padding-right: 20px;
-   }
-
-
-
-
-
-
-
-
-
-
     .headerTienda {
         width: 768px;
     }
 
 
+    /*sesion.html  */
 
 
+    .imgTienda2Clase {
+        width: 25px;
+        height: 25px;
+    }
+
+    .botonSesion {
+        font-size: 20px;
+    }
 
 
+    .divBoton {
+        margin-top: 5px;
+        padding-top: 5px;
+    }
 
-
-
+    .hFinal {
+        margin-top: 30px;
+        padding-right: 20px;
+    }
 
 }
 
@@ -861,7 +892,7 @@ font-family: 'Inspiration', cursive; */
         font-size: 50px;
     }
 
-    .imagenJordan{
+    .imagenJordan {
         height: 400px;
 
     }
@@ -883,7 +914,7 @@ font-family: 'Inspiration', cursive; */
         font-size: 25px;
         margin-top: 80px;
         margin-bottom: 80px;
-        
+
     }
 
     .logoFinal {
@@ -899,37 +930,37 @@ font-family: 'Inspiration', cursive; */
 
 
 
-    .imgTienda2Clase{
+    .imgTienda2Clase {
         height: 25px;
         width: 25px;
     }
 
-    .divH2{
+    .divH2 {
         margin-bottom: 55px;
         margin-top: 55px;
     }
 
-    .h3Yh4{
+    .h3Yh4 {
         font-size: 25px;
     }
 
-    .inputUsername{
+    .inputUsername {
         width: 50%;
         height: 50px;
         margin-bottom: 30px;
     }
 
-    .botonSesion{
+    .botonSesion {
         font-size: 20px;
     }
 
-    .divBoton{
+    .divBoton {
         margin-top: 5px;
         padding-top: 5px;
     }
 
 
-    .contenedorLis{
+    .contenedorLis {
         padding-top: 80px;
     }
 
@@ -956,7 +987,7 @@ font-family: 'Inspiration', cursive; */
 
     }
 
-    .liClass{
+    .liClass {
         font-size: 20px;
     }
 
@@ -974,23 +1005,23 @@ font-family: 'Inspiration', cursive; */
         margin-bottom: 60px;
     }
 
-/* tienda.html */
+    /* tienda.html */
 
     /* sesion.html */
 
-    .inputUsername{
+    .inputUsername {
         width: 70%;
         height: 70px;
         font-size: 15px;
     }
 
 
-    .divCuenta{
+    .divCuenta {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    .divBoton{
+    .divBoton {
         margin-top: 5px;
         padding-top: 5px;
     }
@@ -1010,13 +1041,14 @@ font-family: 'Inspiration', cursive; */
 
     }
 
-    .liClass{
+    .liClass {
         font-size: 20px;
     }
 
-    /* .imagenJordan{
+    .imagenJordan {
         height: 300px;
-    } */
+
+    }
 
 
     .porQueSneakers {
@@ -1026,23 +1058,23 @@ font-family: 'Inspiration', cursive; */
         padding-right: 5px;
         padding-left: 5px;
     }
-  
+
 
     /* tienda.html */
 
     /* sesion.html */
 
-    .h1Sesion{
+    .h1Sesion {
         padding-right: 20px;
         padding-left: 20px;
     }
 
-    .imgTienda2Clase{
+    .imgTienda2Clase {
         width: 20px;
         height: 20px;
     }
 
-    .divBoton{
+    .divBoton {
         margin-top: 5px;
         padding-top: 5px;
     }
