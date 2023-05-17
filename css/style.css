@@ -631,6 +631,10 @@ font-family: 'Inspiration', cursive; */
     margin-left: 15px;
 }
 
+.inputCorreoElectronico1 {
+    width: 1234px;
+    height: 102px;
+}
 
 .inputMensaje {
     width: 1266px;
@@ -661,9 +665,61 @@ font-family: 'Inspiration', cursive; */
     font-family: 'Goudy Bookletter 1911', serif;
     font-size: 20px;
     margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
+
 @media (max-width: 1440px) {
+
+
+    /* tienda.html */
+    .imagenMain{
+        width: 60%;
+
+
+    }
+
+    .section3 .contenedor {
+        gap: 140px;
+    }
+    
+    .divProductos{
+        padding-left: 10px ;
+        padding-right: 10px;
+    }
+
+    .galeria {
+        height: 800px;
+        display: grid;
+        grid-template-columns: repeat(7, 180px);
+        grid-template-rows: repeat(7, 150px);
+        grid-template-areas:
+            "classJordan classJordan  classJordan classImgAd classImgAd  classImgNike classImgNike"
+            "classJordan classJordan classJordan classImgAd classImgAd  classImgNike classImgNike"
+            "classJordan classJordan  classJordan classImgSb classImgSb  classImgJanoski classImgJanoski"
+            "classJordan classJordan classJordan classImgSb classImgSb  classImgJanoski classImgJanoski"
+        ;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /* sesion.html */
 
@@ -718,6 +774,32 @@ font-family: 'Inspiration', cursive; */
     }
 
 
+    /* nosycontacto.html */
+
+    .imgNos{
+        width: 100%;
+
+    }
+
+.inputCorreoElectronico1 {
+    width: 80%;
+    height: 102px;
+}
+
+.inputMensaje {
+    width: 80%;
+    height: 282px;
+}
+
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -765,19 +847,17 @@ font-family: 'Inspiration', cursive; */
     .galeria {
         height: 600px;
         display: grid;
-        grid-template-columns: repeat(7, 130px);
+        grid-template-columns: repeat(6, 130px);
         grid-template-rows: repeat(7, 100px);
         grid-template-areas:
-            "classJordan classJordan classJordan classImgAd classImgAd  classImgNike classImgNike"
-            "classJordan classJordan classJordan classImgAd classImgAd  classImgNike classImgNike"
-            "classJordan classJordan classJordan classImgSb classImgSb  classImgJanoski classImgJanoski"
-            "classJordan classJordan classJordan classImgSb classImgSb  classImgJanoski classImgJanoski"
+            "classJordan  classJordan classImgAd classImgAd  classImgNike classImgNike"
+            "classJordan classJordan classImgAd classImgAd  classImgNike classImgNike"
+            "classJordan  classJordan classImgSb classImgSb  classImgJanoski classImgJanoski"
+            "classJordan classJordan classImgSb classImgSb  classImgJanoski classImgJanoski"
         ;
 
 
     }
-
-    /* aca iria el cambio de tamaño de imagenes del layout de marcas, PREGUNTAR AL PROFE */
 
 
     .parrafoSneakers {
@@ -866,7 +946,7 @@ font-family: 'Inspiration', cursive; */
     }
 
     .botonSesion {
-        font-size: 20px;
+        font-size: 16px;
     }
 
 
@@ -878,6 +958,28 @@ font-family: 'Inspiration', cursive; */
     .hFinal {
         margin-top: 30px;
         padding-right: 20px;
+    }
+
+
+
+    /* nosycontacto.html */
+
+
+    .h2ContactoDiv{
+        margin-bottom: 30px;
+    }
+   
+    .parrafoContacto{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .inputCorreoElectronico1{
+        width: 90%;
+    }
+
+    .inputMensaje{
+        width: 90%;
     }
 
 }
@@ -951,7 +1053,7 @@ font-family: 'Inspiration', cursive; */
     }
 
     .botonSesion {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .divBoton {
@@ -966,15 +1068,46 @@ font-family: 'Inspiration', cursive; */
 
 
 
+    /* nosycontacto.html */
+
+    .headerTienda {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .imgNos{
+        margin-bottom: 15px;
+        height: 400px;
+    }
+
+    .h2ContactoDiv{
+        margin-bottom: 20px;
+    }
+   
+    .parrafoContacto{
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
 
-
-
-
-
-
-
+    .inputCorreoElectronico1 {
+        width: 90%;
+        height: 102px;
+    }
+    
+    .inputMensaje {
+        width: 90%;
+        height: 200px;
+    }
+    
+    .botonMensaje{
+        width: 40%;
+        height: 40px;
+    }
+    
 }
+
 
 
 
@@ -1082,3 +1215,4 @@ font-family: 'Inspiration', cursive; */
 
 
 }
+
