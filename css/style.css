@@ -676,8 +676,6 @@ font-family: 'Inspiration', cursive; */
     /* tienda.html */
     .imagenMain{
         width: 60%;
-
-
     }
 
     .section3 .contenedor {
@@ -793,6 +791,22 @@ font-family: 'Inspiration', cursive; */
 
 
 
+/* registrate.html */
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -903,7 +917,11 @@ font-family: 'Inspiration', cursive; */
 
 
 
+    /* registrate.html */
 
+    .inputCorreoElectronico{
+        width: 80%;
+    }
 
 
 }
@@ -981,6 +999,19 @@ font-family: 'Inspiration', cursive; */
     .inputMensaje{
         width: 90%;
     }
+
+
+    /* registrate.html */
+
+ 
+
+
+
+
+
+
+
+
 
 }
 
@@ -1106,6 +1137,24 @@ font-family: 'Inspiration', cursive; */
         height: 40px;
     }
     
+
+    /* registrate.html */
+
+    .inputNombre{
+        width: 70px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
