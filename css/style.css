@@ -23,6 +23,8 @@ body {
 /* font-family: 'Goudy Bookletter 1911', serif;
 font-family: 'Inspiration', cursive; */
 
+
+
 /* CSS de index.html */
 .bodyIndex {
     background-color: black;
@@ -674,16 +676,16 @@ font-family: 'Inspiration', cursive; */
 
 
     /* tienda.html */
-    .imagenMain{
+    .imagenMain {
         width: 60%;
     }
 
     .section3 .contenedor {
         gap: 140px;
     }
-    
-    .divProductos{
-        padding-left: 10px ;
+
+    .divProductos {
+        padding-left: 10px;
         padding-right: 10px;
     }
 
@@ -746,7 +748,7 @@ font-family: 'Inspiration', cursive; */
         margin-top: 10px;
         margin-bottom: 10px;
         height: 50px;
-        
+
     }
 
 
@@ -774,45 +776,20 @@ font-family: 'Inspiration', cursive; */
 
     /* nosycontacto.html */
 
-    .imgNos{
+    .imgNos {
         width: 100%;
 
     }
 
-.inputCorreoElectronico1 {
-    width: 80%;
-    height: 102px;
-}
+    .inputCorreoElectronico1 {
+        width: 80%;
+        height: 102px;
+    }
 
-.inputMensaje {
-    width: 80%;
-    height: 282px;
-}
-
-
-
-/* registrate.html */
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .inputMensaje {
+        width: 80%;
+        height: 282px;
+    }
 
 
 }
@@ -917,13 +894,6 @@ font-family: 'Inspiration', cursive; */
 
 
 
-    /* registrate.html */
-
-    .inputCorreoElectronico{
-        width: 80%;
-    }
-
-
 }
 
 
@@ -983,33 +953,22 @@ font-family: 'Inspiration', cursive; */
     /* nosycontacto.html */
 
 
-    .h2ContactoDiv{
+    .h2ContactoDiv {
         margin-bottom: 30px;
     }
-   
-    .parrafoContacto{
+
+    .parrafoContacto {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    .inputCorreoElectronico1{
+    .inputCorreoElectronico1 {
         width: 90%;
     }
 
-    .inputMensaje{
+    .inputMensaje {
         width: 90%;
     }
-
-
-    /* registrate.html */
-
- 
-
-
-
-
-
-
 
 
 
@@ -1054,9 +1013,6 @@ font-family: 'Inspiration', cursive; */
         font-size: 50px;
         padding-top: 80px;
     }
-
-
-    /* tienda.html */
 
 
     /* sesion.html */
@@ -1106,16 +1062,16 @@ font-family: 'Inspiration', cursive; */
         margin-bottom: 100px;
     }
 
-    .imgNos{
+    .imgNos {
         margin-bottom: 15px;
         height: 400px;
     }
 
-    .h2ContactoDiv{
+    .h2ContactoDiv {
         margin-bottom: 20px;
     }
-   
-    .parrafoContacto{
+
+    .parrafoContacto {
         font-size: 16px;
         padding-left: 10px;
         padding-right: 10px;
@@ -1126,33 +1082,16 @@ font-family: 'Inspiration', cursive; */
         width: 90%;
         height: 102px;
     }
-    
+
     .inputMensaje {
         width: 90%;
         height: 200px;
     }
-    
-    .botonMensaje{
+
+    .botonMensaje {
         width: 40%;
         height: 40px;
     }
-    
-
-    /* registrate.html */
-
-    .inputNombre{
-        width: 70px;
-    }
-
-
-
-
-
-
-
-
-
-
 
 
 }
@@ -1174,8 +1113,6 @@ font-family: 'Inspiration', cursive; */
     }
 
 
-
-
     .anclaTienda {
         font-size: 35px;
     }
@@ -1187,7 +1124,6 @@ font-family: 'Inspiration', cursive; */
         margin-bottom: 60px;
     }
 
-    /* tienda.html */
 
     /* sesion.html */
 
@@ -1242,7 +1178,6 @@ font-family: 'Inspiration', cursive; */
     }
 
 
-    /* tienda.html */
 
     /* sesion.html */
 
@@ -1264,4 +1199,3 @@ font-family: 'Inspiration', cursive; */
 
 
 }
-
