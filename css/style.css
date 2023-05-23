@@ -692,7 +692,7 @@ font-family: 'Inspiration', cursive; */
     .galeria {
         height: 800px;
         display: grid;
-        grid-template-columns: repeat(7, 180px);
+        grid-template-columns: repeat(7, 190px);
         grid-template-rows: repeat(7, 150px);
         grid-template-areas:
             "classJordan classJordan  classJordan classImgAd classImgAd  classImgNike classImgNike"
@@ -703,21 +703,6 @@ font-family: 'Inspiration', cursive; */
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -838,7 +823,7 @@ font-family: 'Inspiration', cursive; */
     .galeria {
         height: 600px;
         display: grid;
-        grid-template-columns: repeat(6, 130px);
+        grid-template-columns: repeat(6, 160px);
         grid-template-rows: repeat(7, 100px);
         grid-template-areas:
             "classJordan  classJordan classImgAd classImgAd  classImgNike classImgNike"
@@ -922,6 +907,21 @@ font-family: 'Inspiration', cursive; */
     /* tienda.html */
     .headerTienda {
         width: 768px;
+    }
+    
+    .galeria {
+        height: 600px;
+        display: grid;
+        grid-template-columns: repeat(4, 180px);
+        grid-template-rows: repeat(7, 100px);
+        grid-template-areas:
+            "classJordan classJordan classImgAd classImgNike "
+            "classJordan classJordan classImgAd classImgNike "
+            "classJordan classJordan classImgSb classImgJanoski "
+            "classJordan classJordan classImgSb classImgJanoski "
+        ;
+
+
     }
 
 
@@ -1094,6 +1094,21 @@ font-family: 'Inspiration', cursive; */
     }
 
 
+    /* tienda.html */
+
+    .galeria{
+        display: none;
+    }
+
+    .divMarcas{
+        display: none;
+    }
+
+    .sectionFinal{
+        margin-top: 60px;
+    }
+
+
 }
 
 
@@ -1196,6 +1211,14 @@ font-family: 'Inspiration', cursive; */
         padding-top: 5px;
     }
 
+    /* tienda.html */
 
+    .parrafoSneakers{
+        font-size: 16px;
+    }
+
+    .conocenosAncla{
+        font-size: 20px;
+    }
 
 }
