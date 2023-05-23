@@ -908,7 +908,7 @@ font-family: 'Inspiration', cursive; */
     .headerTienda {
         width: 768px;
     }
-    
+
     .galeria {
         height: 600px;
         display: grid;
@@ -1096,18 +1096,23 @@ font-family: 'Inspiration', cursive; */
 
     /* tienda.html */
 
-    .galeria{
+    .galeria {
         display: none;
     }
 
-    .divMarcas{
+    .divMarcas {
         display: none;
     }
 
-    .sectionFinal{
+    .sectionFinal {
         margin-top: 60px;
     }
 
+    .parrafoSneakers {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 0px;
+    }
 
 }
 
@@ -1159,6 +1164,19 @@ font-family: 'Inspiration', cursive; */
         padding-top: 5px;
     }
 
+
+    /* tienda.html */
+
+    .parrafoSneakers {
+        font-size: 18px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 0px;
+    }
+
+    .conocenosAncla {
+        font-size: 20px;
+    }
 
 }
 
@@ -1213,11 +1231,11 @@ font-family: 'Inspiration', cursive; */
 
     /* tienda.html */
 
-    .parrafoSneakers{
-        font-size: 16px;
+    .parrafoSneakers {
+        font-size: 18px;
     }
 
-    .conocenosAncla{
+    .conocenosAncla {
         font-size: 20px;
     }
 
