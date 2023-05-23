@@ -1231,12 +1231,22 @@ font-family: 'Inspiration', cursive; */
 
     /* tienda.html */
 
+
+    .h1Tienda{
+        font-size: 55px;
+        text-align: center;
+    }
+
     .parrafoSneakers {
         font-size: 18px;
     }
 
     .conocenosAncla {
         font-size: 20px;
+    }
+
+    .h6Final{
+        font-size: 55px;
     }
 
 }
