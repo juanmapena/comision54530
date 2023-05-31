@@ -263,7 +263,7 @@ font-family: 'Inspiration', cursive; */
 .galeria {
     height: 800px;
     display: grid;
-    grid-template-columns: repeat(7, 180px);
+    grid-template-columns: repeat(6, 180px);
     grid-template-rows: repeat(7, 150px);
     grid-template-areas:
         "classJordan classJordan classJordan classImgAd classImgAd  classImgNike classImgNike"
@@ -387,6 +387,10 @@ font-family: 'Inspiration', cursive; */
 .divFooterFinal {
     margin-left: 25px;
     padding-top: 30px;
+}
+
+.ulFooter {
+    list-style: none;
 }
 
 .anclaPreguntas {
@@ -542,8 +546,6 @@ font-family: 'Inspiration', cursive; */
 }
 
 
-
-
 .h2Registrate {
     text-align: left;
     font-size: 30px;
@@ -557,7 +559,7 @@ font-family: 'Inspiration', cursive; */
     text-align: left;
     font-family: 'Goudy Bookletter 1911', serif;
     margin-bottom: 30px;
-    margin-left: 15px;
+    padding-left: 15px;
 
 }
 
@@ -779,6 +781,32 @@ font-family: 'Inspiration', cursive; */
 
 }
 
+
+@media (max-width:1250px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 24%;
+    }
+
+
+}
+
+
+@media (max-width:1030px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 30%;
+    }
+
+
+}
+
+
+
 @media (max-width:1024px) {
 
     /*index.html */
@@ -878,8 +906,51 @@ font-family: 'Inspiration', cursive; */
     }
 
 
+    /* registrate.html */
+
+    .parrafoRegistrarse {
+        padding-right: 200px;
+    }
+
+
+
+    .inputCorreoElectronico {
+        width: 80%;
+    }
+
+
+    .divNombre2 {
+        margin: 0px;
+    }
+
+
 
 }
+
+
+@media (max-width:995px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 30%;
+    }
+
+
+}
+
+
+@media (max-width:835px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 35%;
+    }
+
+
+}
+
 
 
 @media (max-width:768px) {
@@ -971,8 +1042,204 @@ font-family: 'Inspiration', cursive; */
     }
 
 
+    /* registrate.html */
+
+    .divRegistrarse {
+        padding-left: 170px;
+        margin-bottom: 30px;
+    }
+
+    .inputCorreoElectronico {
+        width: 90%;
+    }
+
+
 
 }
+
+
+@media (max-width:720px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 40%;
+    }
+
+
+
+    /* nosycontacto.html */
+
+    .imgNos{
+        width: 106%;
+
+    }
+
+    .footerFinal{
+        width: 106%;
+    }
+
+
+}
+
+@media (max-width:736px) {
+
+
+    /* nosycontactohtml */
+
+    .imgNos{
+        width: 104%;
+    }
+
+    .footerFinal{
+        width: 104%;
+    }
+
+
+    
+
+
+    }
+
+
+    @media (max-width:650px) {
+        
+        /* nosycontactohtml */
+
+        .imgNos{
+            width: 117%;
+        }
+
+        .footerFinal{
+            width: 117%;
+        }
+
+
+
+        }
+
+
+@media (max-width:621px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 50%;
+    }
+
+    /* nosycontacto.html */
+
+    .imgNos{
+        width: 123%;
+
+    }
+
+    .divStrong{
+        padding-left: 100px;
+    }
+
+    .footerFinal{
+        width: 123%;
+    }
+
+
+}
+
+
+
+@media (max-width:550px) {
+        
+    /* nosycontactohtml */
+
+    .imgNos{
+        width: 139%;
+    }
+
+    .footerFinal{
+        width: 139%;
+    }
+
+    .inputCorreoElectronico1{
+        width: 130%;
+    }
+
+    .inputMensaje{
+        width: 130%;
+    }
+
+    .divBotonazo{
+        padding-left: 200px;
+    }
+
+
+
+    }
+
+
+
+
+@media (max-width:500px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 55%;
+    }
+
+    /* nosycontactohtml */
+
+    .imgNos{
+        width: 153%;
+
+    }
+
+    .divStrong{
+        padding-left: 150px;
+    }
+
+    .footerFinal{
+        width: 153%;
+    }
+
+    .inputCorreoElectronico1{
+        width: 130%;
+    }
+
+    .inputMensaje{
+        width: 130%;
+    }
+
+    .divBotonazo{
+        padding-left: 200px;
+    }
+
+}
+
+
+
+@media (max-width:451px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 60%;
+    }
+
+
+    /* nosycontactohtml */
+
+    .imgNos{
+        width: 170%;
+
+    }
+
+    .footerFinal{
+        width: 170%;
+    }
+
+
+}
+
 
 
 
@@ -1114,7 +1381,42 @@ font-family: 'Inspiration', cursive; */
         padding: 0px;
     }
 
+    /* registrate.html */
+
+
+    .divNombre1 {
+        margin-right: 30px;
+    }
+
+    .inputCorreoElectronico {
+        width: 95%;
+    }
+
+
+    .divRegistrarse {
+        display: none;
+    }
+
+    .divBoton {
+        margin-top: 60px;
+    }
+
+
+
 }
+
+
+@media (max-width:419px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 80%;
+    }
+
+
+}
+
 
 
 
@@ -1178,6 +1480,34 @@ font-family: 'Inspiration', cursive; */
         font-size: 20px;
     }
 
+
+    /* registrate.html */
+
+    .divNombre1 {
+        width: 40%;
+    }
+
+    .divNombre2 {
+        width: 40%;
+    }
+
+    .divBoton {
+        margin-top: 60px;
+    }
+
+
+}
+
+
+@media (max-width:363px) {
+
+    /* index.html */
+
+    .vinculosPrincipales {
+        width: 85%;
+    }
+
+
 }
 
 
@@ -1232,7 +1562,7 @@ font-family: 'Inspiration', cursive; */
     /* tienda.html */
 
 
-    .h1Tienda{
+    .h1Tienda {
         font-size: 55px;
         text-align: center;
     }
@@ -1245,8 +1575,29 @@ font-family: 'Inspiration', cursive; */
         font-size: 20px;
     }
 
-    .h6Final{
+    .h6Final {
         font-size: 55px;
     }
+
+
+
+    /* registrate.html */
+
+    .divBoton {
+        margin-top: 60px;
+    }
+
+    /* nosycontactohtml */
+
+    .imgNos{
+        width: 100%;
+
+    }
+
+    .footerFinal{
+        width: 100%;
+    }
+
+    
 
 }
